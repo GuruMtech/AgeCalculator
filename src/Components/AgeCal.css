@@ -1,0 +1,50 @@
+.age-calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f53481, #f7a1c2, #faa1b5, #aae79b, #5d8aa8);
+}
+
+.age-card {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #0000001f;
+    padding: 20px;
+}
+.age-card:hover{
+    background-color: #0000006c;;
+}
+
+.age-card .text-center {
+    color: #20f4ff; /* Accent Color */
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.btn-primary {
+    border-radius: 10px;
+    background-color: #508652;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #348b39;
+   
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.age-text {
+    font-size: 20px;
+    color: #333;
+}
